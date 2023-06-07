@@ -59,6 +59,7 @@ header {
 
                 &:hover {
                     transform: scale(1.5) translateY(-8px);
+                    text-shadow: 0 0 0.625px $hoverHighlight, 0 0 1.25px $hoverHighlight, 0 0 2.5px $hoverHighlight, 0 0 3.75px $hoverHighlight;
                 }
             }
 
@@ -70,6 +71,7 @@ header {
 
                 &:hover {
                     transform: scale(1.3) translateY(-8px);
+                    text-shadow: 0 0 0.625px $hoverHighlight, 0 0 1.25px $hoverHighlight, 0 0 2.5px $hoverHighlight, 0 0 3.75px $hoverHighlight;
                 }
             }
         }
