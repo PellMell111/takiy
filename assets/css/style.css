@@ -108,7 +108,6 @@ header nav .navBarLink {
   }
   header nav .navBarLink:hover {
     transform: scale(1.5) translateY(-8px);
-    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
   }
 }
 @media only screen and (max-width: 1023px) and (min-width: 768px) {
@@ -120,7 +119,6 @@ header nav .navBarLink {
   }
   header nav .navBarLink:hover {
     transform: scale(1.3) translateY(-8px);
-    text-shadow: 0 0 5px #ff0000, 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000;
   }
 }
 
