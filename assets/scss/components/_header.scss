@@ -1,0 +1,79 @@
+header {
+    background-color: $backgroundColor;
+    color: $textColor;
+
+    @media only screen and (min-width: 1024px) {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding: 0 100px 0 100px;
+        height: 100px;
+      }
+
+    @media only screen and (max-width: 1023px) and (min-width: 768px) {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        justify-content: space-between;
+        padding: 0 50px 0 50px;
+        height: 80px;
+    }
+
+    .mainTittle {
+        font-family: $tittleFont;        
+        font-style: italic;
+
+        @media only screen and (min-width: 1024px) {
+            font-size: 50px;
+            align-self: flex-end;
+            transition: 0.5s;
+
+            &:hover {
+                text-shadow: 0 0 5px $hoverHighlight, 0 0 10px $hoverHighlight, 0 0 20px $hoverHighlight, 0 0 30px $hoverHighlight;
+            }
+        }
+        
+        @media only screen and (max-width: 1023px) and (min-width: 768px) {
+            font-size: 40px;
+            align-self: flex-end;
+            transition: 0.5s;
+
+            &:hover {
+                text-shadow: 0 0 5px $hoverHighlight, 0 0 10px $hoverHighlight, 0 0 20px $hoverHighlight, 0 0 30px $hoverHighlight;
+            }
+        } 
+    }
+
+    nav {        
+        .navBarLink {
+            font-family: $mainFont;
+            color: $textColor;
+            text-decoration: none;
+
+            @media only screen and (min-width: 1024px) {
+                display: inline-block;
+                font-size: 25px;
+                margin-left: 50px;    
+                transition: 0.5s;
+
+                &:hover {
+                    transform: scale(1.5) translateY(-8px);
+                    text-shadow: 0 0 5px $hoverHighlight, 0 0 10px $hoverHighlight, 0 0 20px $hoverHighlight, 0 0 30px $hoverHighlight;
+                }
+            }
+
+            @media only screen and (max-width: 1023px) and (min-width: 768px) {
+                display: inline-block;
+                font-size: 20px;
+                margin-left: 30px;    
+                transition: 0.5s;
+
+                &:hover {
+                    transform: scale(1.3) translateY(-8px);
+                    text-shadow: 0 0 5px $hoverHighlight, 0 0 10px $hoverHighlight, 0 0 20px $hoverHighlight, 0 0 30px $hoverHighlight;
+                }
+            }
+        }
+    }
+}

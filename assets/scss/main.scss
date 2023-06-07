@@ -1,0 +1,11 @@
+// Import estilos base
+@import 'base/base';
+
+// Import estilos específicos por página
+@import 'pages/index';
+
+// Import variables
+@import 'utils/variables';
+
+// Import componentes
+@import 'components/header';
